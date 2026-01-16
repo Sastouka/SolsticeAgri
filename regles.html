@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use - Solstice Agri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Consistent Variables */
+        :root {
+            --tech-blue: #2A52BE;
+            --nature-green: #2E7D32; /* Dominant Green here */
+            --fruit-peach: #FF9800;
+            --bg-gradient: linear-gradient(135deg, #F5F7FA 0%, #E3F2FD 100%);
+            --text-dark: #1A202C;
+            --text-light: #4A5568;
+            --white: #ffffff;
+            --shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-dark);
+            line-height: 1.7;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: var(--white);
+            max-width: 900px;
+            width: 100%;
+            border-radius: 24px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--white);
+            padding: 40px 30px;
+            text-align: center;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(42, 82, 190, 0.15);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--nature-green); /* Green Title */
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.8rem;
+            color: var(--tech-blue);
+            font-weight: 700;
+        }
+
+        .content { padding: 40px; }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-dark);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: var(--tech-blue);
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+
+        p, li { color: var(--text-light); font-size: 1rem; margin-bottom: 10px; text-align: justify; }
+
+        ul { list-style: none; padding-left: 10px; }
+        li::before { content: "•"; color: var(--fruit-peach); font-weight: bold; margin-right: 10px; font-size: 1.2rem; }
+
+        /* Important Alert Box */
+        .alert-box {
+            background-color: #FFF3E0;
+            border-left: 4px solid var(--fruit-peach);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: #E65100;
+        }
+
+        .footer-nav {
+            background: #F8FAFC;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+
+        .btn-outline {
+            display: inline-block;
+            border: 2px solid var(--tech-blue);
+            color: var(--tech-blue);
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .btn-outline:hover { background: var(--tech-blue); color: white; }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .content { padding: 20px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <header>
+            <img src="icon.png" alt="Logo Solstice Agri" class="logo">
+            <h1>Terms of Use</h1>
+            <div class="subtitle">Rules & Commitments (EULA)</div>
+        </header>
+
+        <div class="content">
+            <p><strong>Effective Date:</strong> January 16, 2026</p>
+            <p>By installing and using the <strong>Solstice Agri</strong> mobile application, developed by <strong>Sastouka Digital</strong>, you unconditionally accept these Terms of Use. This application is a professional tool intended for agricultural management.</p>
+
+            <h2>1. Purpose of the Application</h2>
+            <p>Solstice Agri aims to provide tools for agronomic and financial tracking: harvest entry, intervention management (water, fertilizer), staff monitoring, and profitability analysis (Engineer Module). It serves as a decision support tool.</p>
+
+            <h2>2. Liability & Data (Important)</h2>
+            <div class="alert-box">
+                <strong>Disclaimer (Offline Data):</strong><br>
+                Solstice Agri operates locally. Sastouka Digital does not possess any copy of your data.
+            </div>
+            <ul>
+                <li><strong>Backups:</strong> You are solely responsible for regularly backing up your data. The application provides an "Export / Backup" tool (JSON format) for this purpose.</li>
+                <li><strong>Device Loss:</strong> In the event of theft, loss, or malfunction of your phone, Sastouka Digital cannot restore your data if you haven't performed an external backup.</li>
+                <li><strong>Accuracy:</strong> Financial calculations are based on the data you input. The publisher cannot be held liable for management errors resulting from the use of the application.</li>
+            </ul>
+
+            <h2>3. Premium Subscriptions (Google Play)</h2>
+            <p>Certain advanced features (Engineer Module, unlimited charts, full Excel exports) may require an active subscription.</p>
+            <ul>
+                <li><strong>Subscription:</strong> Payments are managed exclusively by the Google Play Store.</li>
+                <li><strong>Renewal:</strong> Subscriptions renew automatically 24 hours before the end of the current period unless canceled.</li>
+                <li><strong>Cancellation:</strong> You can cancel your subscription at any time via your Google account settings. Premium access remains active until the end of the paid period.</li>
+            </ul>
+
+            <h2>4. Intellectual Property</h2>
+            <p>All elements of the Solstice Agri application, including but not limited to source code, design, the "Fruit Tree Tech" logo, databases, and calculation algorithms, are the exclusive property of Sastouka Digital.</p>
+            <p>Any unauthorized reproduction, modification, reverse engineering, or distribution is strictly prohibited.</p>
+
+            <h2>5. Contact & Support</h2>
+            <p>For any claims, bugs, or legal questions:</p>
+            <p>
+                <strong>Sastouka Digital (Morocco)</strong><br>
+                Email: <a href="mailto:sastoukadigital@gmail.com" style="color: var(--tech-blue);">sastoukadigital@gmail.com</a><br>
+                Phone: <a href="tel:+212652084735" style="color: var(--tech-blue);">+212 652 084 735</a>
+            </p>
+        </div>
+
+        <div class="footer-nav">
+            <a href="index_en.html" class="btn-outline">← Back to Privacy Policy</a>
+            <p style="margin-top: 15px; font-size: 0.8rem; color: #aaa;">© 2026 Sastouka Digital</p>
+        </div>
+    </div>
+
+</body>
+</html>
